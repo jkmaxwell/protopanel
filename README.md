@@ -7,6 +7,7 @@ Control panel for setting states in interactive prototypes, specifically designe
 #### Link up the index
 
 In your prototype's index, pull in (in order)
+
 1. the CSS
 2. the js
 3. the JSON
