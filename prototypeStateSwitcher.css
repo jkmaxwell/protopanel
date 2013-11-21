@@ -1,0 +1,50 @@
+body > header {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10000;
+}
+body > header ul,
+body > header h3,
+body > header p {
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+  border-radius: 3px;
+  width: 200px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body > header h3 {
+  font-size: 13px;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+body > header p {
+  padding: 10px 15px;
+  line-height: 18px;
+}
+body > header input[type="checkbox"],
+body > header input[type="radio"] {
+  display: none;
+}
+
+body > header input + label {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  cursor:pointer;
+}
+body > header li:last-child input + label {
+  margin-bottom: 0;
+}   
+
+body > header input[type="checkbox"]:checked + label,
+body > header input[type="radio"]:checked + label {
+  background-color: #f4b400;
+}

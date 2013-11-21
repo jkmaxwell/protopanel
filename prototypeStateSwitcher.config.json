@@ -1,0 +1,37 @@
+{
+  "sections": [{
+    "title": "User State",
+    "css_ident": "state",
+    "type": "radio",
+    "options": {
+      "New User": {
+        "css_ident": "new"
+      },
+      "Existing User": {
+        "css_ident": "existing"
+      }
+    }
+  },
+  {
+    "title": "Interrupts",
+    "css_ident": "int",
+    "type": "radio",
+    "options": {
+      "None": {
+        "checked": "checked",
+        "css_ident": "normal"
+      },
+      "Show TOS": {
+        "css_ident": "tos"
+      },
+      "Login Error": {
+        "css_ident": "error"
+      }
+    }
+  },
+  {
+    "title": "Notes",
+    "type": "notes",
+    "content": "Rough & loose proto for Dialog-Free button in Play. Click anywhere on the screen to reset to default. Contact jkm@google.com for improvement needs, we're putting it to bed now."
+  }]  
+}
