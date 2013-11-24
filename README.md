@@ -1,3 +1,5 @@
+![Protopanel](http://f.cl.ly/items/0e2H1y3R1m0B0b1D2D3Z/protopanel.png "Protopanel")
+
 # Protopanel
 
 Control panel for setting states in interactive prototypes, specifically designed for sketch-framer
